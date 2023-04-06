@@ -1,0 +1,33 @@
+{
+  "name": "assignment-2",
+  "version": "1.0.0",
+  "description": "Igniting Our App",
+  "main": "app.js",
+  "scripts": {
+    "start": "parcel index.html",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/inderpalk/Namaste_React.git"
+  },
+  "author": "Inderpal Kaur",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/inderpalk/Namaste_React/issues"
+  },
+  "homepage": "https://github.com/inderpalk/Namaste_React#readme",
+  "devDependencies": {
+    "@babel/core": "^7.21.4",
+    "babel-plugin-transform-remove-console": "^6.9.4",
+    "parcel": "^2.8.3",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "browsersList": [
+    "last 2 Chrome version"
+  ]
+}
